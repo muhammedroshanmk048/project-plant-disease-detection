@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Disease Detection Result</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f8f8;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 50px;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+      }
+      img {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        margin-bottom: 30px;
+      }
+      p {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+    
+      }
+      h1{
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Disease Detection Result</h1>
+    <div class="container">
+      
+      <p>The plant is affected with the disease <br> <span style="color:red">{{ class_name }}</span></p>
+    </div>
+  </body>
+</html>
+
+
